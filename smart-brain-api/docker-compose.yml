@@ -13,6 +13,7 @@ services:
       - postgres
     ports:
       - "3000:3000"
+    #volumes helps syncing changes like nodemon
     volumes:
       - ./:/usr/src/smart-brain-api
   
